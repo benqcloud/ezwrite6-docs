@@ -8,7 +8,7 @@ import {
 
 export default defineUserConfig({
   // set site base to default value
-  base: '/',
+  base: '/ezwrite6-docs/',
 
   // extra tags in `<head>`
   head,
