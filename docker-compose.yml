@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+
+  web:
+    image: nginx
+    volumes:
+      - "${PWD}/docs/.vuepress/dist:/usr/share/nginx/html"
+    ports:
+      - "80:80"
+    restart: always
+
+  vuepress:
+    image: node:16
+    user: "1000:1000"
+    volumes:
+      - "${PWD}:/usr/src/app"
+    working_dir: "/usr/src/app"
+    tty: true

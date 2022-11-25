@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"BenQ EZWrite6","lang":"en-US","frontmatter":{"lang":"en-US","title":"BenQ EZWrite6","home":true,"sidebar":false,"footer":"Copyright © 2022-present BenQ EZWrite6"},"excerpt":"","headers":[],"git":{},"filePathRelative":"README.md"}');export{e as data};
